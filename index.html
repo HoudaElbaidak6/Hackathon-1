@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>App villa</title>
+  </head>
+  <body>
+    <header>
+      <!-- this is the navbar , it took me more time than I thought : I still have the button to fix and the font -->
+
+      <nav class="navbar navbar-expand-lg bg-light text-dark py-3">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img class="img-fluid w-50" src="images/logo.svg" alt="logo"
+          /></a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active mx-2" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#">Overview</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#">contact</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <a type="button" class="btn-color btn btn-lg mx-4">Get It Now</a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- the banner  : it was easy but I'm very slow-->
+
+      <section id="banner">
+        <div class="container p-4">
+          <div class="row justify-content-center align-items-center gx-5">
+            <div class="col-6">
+              <h1 class="fw-bold text-white">
+                A Powerful App For Your Business.
+              </h1>
+              <p class="text-white fs-5 my-4">
+                From open source to pro services, Piqes helps you to build,
+                deploy, test, and monitor apps.
+              </p>
+              <div class="group-btn">
+                <button type="button" class="btn btn-lg bg-light">
+                  <i class="fa-brands fa-apple"></i>
+                  <span class="text-color"> &nbsp; App Store</span>
+                </button>
+                <button type="button" class="btn btn-lg mx-3">
+                  <i class="fa-brands fa-google-play"></i>&nbsp;
+                  <span class="text-color"> Google Play </span>
+                </button>
+              </div>
+            </div>
+            <div class="col-6">
+              <img src="images/phone.png" alt="phone" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <!-- main -->
+
+    <main>
+      <!-- cards : it was easy but I'm very slow -->
+      <section id="cards">
+        <div class="container p-5">
+          <div class="titles text-center">
+            <h5>Features</h5>
+            <h1 class="fw-bold mb-4 fs-1">
+              Your Experience Gets Better And Better Over Time.
+            </h1>
+            <h6 class="text-muted fw-normal">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form.
+            </h6>
+          </div>
+          <div class="group-cards">
+            <div class="row g-4">
+              <!-- first card download cloud -->
+              <div class="col-4">
+                <div class="card p-3">
+                  <div class="card-body">
+                    <i class="fa-solid fa-cloud-arrow-down"></i>
+                    <h5 class="my-4">Push to deploy</h5>
+                    <p class="text-muted">
+                      It is a long established fact that a reader will be
+                      distracted by the readable content of a page at its
+                      layout.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- second card lock thing -->
+              <div class="col-4">
+                <div class="card p-3">
+                  <div class="card-body">
+                    <i class="fa-solid fa-lock"></i>
+                    <h5 class="my-4">SSL Certificates</h5>
+                    <p class="text-muted">
+                      It is a long established fact that a reader will be
+                      distracted by the readable content of a page at its
+                      layout.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- third card refresh arrows -->
+              <div class="col-4">
+                <div class="card p-3">
+                  <div class="card-body">
+                    <i class="fa-solid fa-arrows-rotate"></i>
+                    <h5 class="my-4">Simple Queues</h5>
+                    <p class="text-muted">
+                      It is a long established fact that a reader will be
+                      distracted by the readable content of a page at its
+                      layout.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- forth card sheild-->
+
+              <div class="col-4">
+                <div class="card p-3">
+                  <div class="card-body">
+                    <i class="fa-solid fa-shield"></i>
+                    <h5 class="my-4">Advanced Security</h5>
+                    <p class="text-muted">
+                      It is a long established fact that a reader will be
+                      distracted by the readable content of a page at its
+                      layout.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- fifth card sheild-->
+
+              <div class="col-4">
+                <div class="card p-3">
+                  <div class="card-body">
+                    <span class="round"><i class="fa-solid fa-gear"></i></span>
+                    <h5 class="my-4">Powerful API</h5>
+                    <p class="text-muted">
+                      It is a long established fact that a reader will be
+                      distracted by the readable content of a page at its
+                      layout.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- sixth section weird layer group -->
+
+              <div class="col-4">
+                <div class="card p-3">
+                  <div class="card-body">
+                    <i class="fa-solid fa-layer-group"></i>
+                    <h5 class="my-4">Database Backups</h5>
+                    <p class="text-muted">
+                      It is a long established fact that a reader will be
+                      distracted by the readable content of a page at its
+                      layout.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- pictures thing 1 -->
+
+      <section id="firstpic">
+        <div class="container">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-6">
+              <div class="text-thing">
+                <i class="fa-solid fa-download"></i>
+                <h2 class="my-4">1,25,000 Customers Using The Application!</h2>
+                <p class="text-muted">
+                  Collaborate over projects with your team and clients optimised
+                  for mobile and tablet don't let slow page speeds drive our
+                  innovative platform empowers anyone to convert clicks ou'll
+                  publish your first landing page in minutes.
+                </p>
+                <button class="btn btn-lg mt-3">Get Started</button>
+              </div>
+            </div>
+            <div class="col-6">
+              <img src="images/app-ss1.png" alt="app1" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- pictures thing 2 -->
+
+      <section id="secondpic">
+        <div class="container">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-6">
+              <img src="images/app-ss2.png" alt="app-ss2" class="img-fluid" />
+            </div>
+            <div class="col-6">
+              <div class="text-thing">
+                <i class="fa-solid fa-download"></i>
+                <h2 class="my-4">Seamless Loyalty</h2>
+                <p class="text-muted">
+                  Collaborate over projects with your team and clients optimised
+                  for mobile and tablet don't let slow page speeds drive our
+                  innovative platform empowers anyone to convert clicks ou'll
+                  publish your first landing page in minutes.
+                </p>
+                <button class="btn btn-lg mt-3">Get Started</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- numbers -->
+
+      <section id="numbers">
+        <div class="container">
+          <div class="titles text-center">
+            <h2 class="fw-bold text-white">
+              Trusted by developers from over 80 planets
+            </h2>
+            <p class="text-white">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority.
+            </p>
+          </div>
+
+          <div
+            class="row justify-content-center align-items-center small mt-5 text-white"
+          >
+            <div class="col-4 text-center">
+              <h1>100%</h1>
+              <p class="fw-bold">Satisfaction</p>
+            </div>
+            <div class="col-4 text-center">
+              <h1>120K</h1>
+              <p class="fw-bold">Happy Users</p>
+            </div>
+            <div class="col-4 text-center">
+              <h1>125K+</h1>
+              <p class="fw-bold">Downloads</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- bigger cards -->
+
+      <section id="pricecards">
+        <div class="container p-5">
+          <div class="titles text-center">
+            <h6>PRICING</h6>
+            <h1 class="fw-bold mb-4 fs-1">Pricing Plan</h1>
+            <h6 class="text-muted fw-normal">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form.
+            </h6>
+          </div>
+          <div class="card-groups">
+            <div class="row gx-5">
+              <!-- Hobby -->
+
+              <div class="col-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="mt-4">Hobby</h5>
+                    <p class="text-muted">
+                      All the basics for starting a new business
+                    </p>
+                    <h1 class="mb-4">
+                      $12<span class="fs-5 text-muted">/mo</span>
+                    </h1>
+                    <button
+                      type="button"
+                      class="btn btn-lg bg-dark text-white btn-bigcards"
+                    >
+                      Buy Hobby
+                    </button>
+                    <div class="card-body mt-4">
+                      <h6 class="mb-4" id="line">WHAT'S INCLUDED</h6>
+                      <ul>
+                        <li class="my-2">
+                          <i class="fa-solid fa-circle-check"></i> &nbsp;Cras
+                          justo odio.
+                        </li>
+                        <li class="my-2">
+                          <i class="fa-solid fa-circle-check"></i> &nbsp;Cras
+                          justo odio.
+                        </li>
+                        <li class="my-2">
+                          <i class="fa-solid fa-circle-check"></i> &nbsp;Cras
+                          justo odio.
+                        </li>
+                        <li class="my-2">
+                          <i class="fa-solid fa-circle-check"></i>&nbsp; Cras
+                          justo odio.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Freelancer -->
+
+              <div class="col-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="mt-4">Freelancer</h5>
+                    <p class="text-muted">
+                      All the basics for starting a new business
+                    </p>
+                    <h1 class="mb-4">
+                      $24<span class="fs-5 text-muted">/mo</span>
+                    </h1>
+                    <button
+                      type="button"
+                      class="btn btn-lg bg-dark text-white btn-bigcards"
+                    >
+                      Buy Hobby
+                    </button>
+                    <div class="card-body mt-4">
+                      <h6 class="mb-4" id="line">WHAT'S INCLUDED</h6>
+                      <ul>
+                        <li class="my-2">
+                          <i class="fa-solid fa-circle-check"></i> &nbsp;Cras
+                          justo odio.
+                        </li>
+                        <li class="my-2">
+                          <i class="fa-solid fa-circle-check"></i> &nbsp;Cras
+                          justo odio.
+                        </li>
+                        <li class="my-2">
+                          <i class="fa-solid fa-circle-check"></i> &nbsp;Cras
+                          justo odio.
+                        </li>
+                        <li class="my-2">
+                          <i class="fa-solid fa-circle-check"></i>&nbsp; Cras
+                          justo odio.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Startup -->
+
+              <div class="col-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="mt-4">Startup</h5>
+                    <p class="text-muted">
+                      All the basics for starting a new business
+                    </p>
+                    <h1 class="mb-4">
+                      $32<span class="fs-5 text-muted">/mo</span>
+                    </h1>
+                    <button
+                      type="button"
+                      class="btn btn-lg bg-dark text-white btn-bigcards"
+                    >
+                      Buy Hobby
+                    </button>
+                    <div class="card-body mt-4">
+                      <h6 class="mb-4" id="line">WHAT'S INCLUDED</h6>
+                      <ul>
+                        <li class="my-2">
+                          <i class="fa-solid fa-circle-check"></i> &nbsp;Cras
+                          justo odio.
+                        </li>
+                        <li class="my-2">
+                          <i class="fa-solid fa-circle-check"></i> &nbsp;Cras
+                          justo odio.
+                        </li>
+                        <li class="my-2">
+                          <i class="fa-solid fa-circle-check"></i> &nbsp;Cras
+                          justo odio.
+                        </li>
+                        <li class="my-2">
+                          <i class="fa-solid fa-circle-check"></i>&nbsp; Cras
+                          justo odio.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- entreprise -->
+
+              <div class="col-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="mt-4">Enterprise</h5>
+                    <p class="text-muted">
+                      All the basics for starting a new business
+                    </p>
+                    <h1 class="mb-4">
+                      $48<span class="fs-5 text-muted">/mo</span>
+                    </h1>
+                    <button
+                      type="button"
+                      class="btn btn-lg bg-dark text-white btn-bigcards"
+                    >
+                      Buy Hobby
+                    </button>
+                    <div class="card-body mt-4">
+                      <h6 class="mb-4" id="line">WHAT'S INCLUDED</h6>
+                      <ul>
+                        <li class="my-2">
+                          <i class="fa-solid fa-circle-check"></i> &nbsp;Cras
+                          justo odio.
+                        </li>
+                        <li class="my-2">
+                          <i class="fa-solid fa-circle-check"></i> &nbsp;Cras
+                          justo odio.
+                        </li>
+                        <li class="my-2">
+                          <i class="fa-solid fa-circle-check"></i> &nbsp;Cras
+                          justo odio.
+                        </li>
+                        <li class="my-2">
+                          <i class="fa-solid fa-circle-check"></i>&nbsp; Cras
+                          justo odio.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- team  -->
+      <section id="team">
+        <div class="container p-5">
+          <div class="titles text-center">
+            <h6>TEAM</h6>
+            <h1 class="fw-bold mb-4 fs-1">Meat Our Team</h1>
+            <h6 class="text-muted fw-normal">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form.
+            </h6>
+          </div>
+          <div class="row gx-5">
+            <div class="col-4">
+              <div class="card" style="width: 25rem">
+                <img class="card-img-top" src="images/team1.jpg" alt="team" />
+                <div
+                  class="card-body d-flex justify-content-between align-items-center px-5 py-4"
+                >
+                  <div class="context">
+                    <h5>Leonard Krasner</h5>
+                    <h6 id="color-pink" class="fw-normal">Senior Designer</h6>
+                  </div>
+                  <div class="icons align-self-start">
+                    <i class="fa-brands fa-twitter"></i>
+                    &nbsp;
+                    <i class="fa-brands fa-linkedin"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card" style="width: 25rem">
+                <img class="card-img-top" src="images/team2.jpg" alt="team" />
+                <div
+                  class="card-body d-flex justify-content-between align-items-center px-5 py-4"
+                >
+                  <div class="context">
+                    <h5>Leonard Krasner</h5>
+                    <h6 id="color-pink" class="fw-normal">Senior Designer</h6>
+                  </div>
+                  <div class="icons align-self-start">
+                    <i class="fa-brands fa-twitter"></i>
+                    &nbsp;
+                    <i class="fa-brands fa-linkedin"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="card" style="width: 25rem">
+                <img class="card-img-top" src="images/team3.jpg" alt="team" />
+                <div
+                  class="card-body d-flex justify-content-between align-items-center px-5 py-4"
+                >
+                  <div class="context">
+                    <h5>Leonard Krasner</h5>
+                    <h6 id="color-pink" class="fw-normal">Senior Designer</h6>
+                  </div>
+                  <div class="icons align-self-start">
+                    <i class="fa-brands fa-twitter"></i>
+                    &nbsp;
+                    <i class="fa-brands fa-linkedin"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--  Ayro section : this so long and stressful I'm never doing it again-->
+
+      <section id="testi">
+        <div class="container p-5">
+          <div class="text-center width-text">
+            <div class="text-center" style="width: 300px; margin: auto">
+              <img src="images/brand2.svg" alt="brand" class="img-fluid w-50" />
+            </div>
+            <p>
+              "It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that it has"
+            </p>
+            <div class="mt-5">
+              <img
+                src="images/testi1.jpg"
+                alt="guy"
+                class="img-fluid rounded-circle"
+                style="width: 50px"
+              />
+              <h6>Musharof Chowdhury</h6>
+              <h6>CEO - Ayro UI</h6>
+            </div>
+          </div>
+          <div id="border">
+            <div class="border-item"></div>
+            <div class="border-item"></div>
+            <div class="border-item"></div>
+          </div>
+        </div>
+      </section>
+
+<!-- pink section install -->
+
+
+
+<section id="install">
+    <div class="container p-5 text-white text-center">
+        <div class="titles">
+            <h1 class="mb-4">Install Appvilla and Start Using</h1>
+            <p class="m-3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+        </div>
+        <div class="group-btn">
+            <button type="button" class="btn btn-lg bg-light">
+              <i class="fa-brands fa-apple"></i>
+              <span class="text-color"> &nbsp; App Store</span>
+            </button>
+            <button type="button" class="btn btn-lg mx-3">
+              <i class="fa-brands fa-google-play"></i>&nbsp;
+              <span class="text-color"> Google Play </span>
+            </button>
+    </div>
+    </div>
+</section>
+
+
+<!-- Accordion -->
+
+
+<section id="accordion"> 
+    <div class="container p-5">
+        <div class="titles text-center">
+            <h6>FAQ</h6>
+            <h1 class="mb-4">Frequently Asked Questions</h1>
+            <p class="m-3 text-muted">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+        </div>
+        
+            <div class="accordion my-4" id="firsttime">
+
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="header">
+                    <button
+                      class="accordion-button "
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                      id="workpls"
+                    >
+                    <i class="fa-solid fa-0"></i>
+                    <i class="fa-solid fa-1"></i>
+                    &nbsp;
+                    How Do I Contact Customer services
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="header"
+                    data-bs-parent="firsttime"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur sit amet ante nec vulputate. Nulla aliquam, justo auctor consequat tincidunt, arcu erat mattis lorem, lacinia lacinia dui enim at eros. Pellentesque ut gravida augue. Duis ac dictum tellus </p>
+
+
+<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute. non cupidatat skateboard dolor brunch. Foosd truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt alqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim ke ffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="header2">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse2"
+                      aria-expanded="false"
+                      aria-controls="collapse2"
+                      id="workpls"
+                    >
+                    <i class="fa-solid fa-0"></i>
+                    <i class="fa-solid fa-2"></i>
+                    &nbsp;
+                    Material types can you work with ?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse2"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="header2"
+                    data-bs-parent="#firsttime"
+                  >
+                    <div class="accordion-body">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur sit amet ante nec vulputate. Nulla aliquam, justo auctor consequat tincidunt, arcu erat mattis lorem, lacinia lacinia dui enim at eros. Pellentesque ut gravida augue. Duis ac dictum tellus </p>
+    
+    
+    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute. non cupidatat skateboard dolor brunch. Foosd truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt alqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim ke ffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+                          </p>
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="header3">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse3"
+                      aria-expanded="false"
+                      aria-controls="collapse3"
+                      id="workpls"
+                    >
+                    <i class="fa-solid fa-0"></i>
+                    <i class="fa-solid fa-3"></i>
+                    &nbsp;
+                    Can I have multiple activities in a single feature ?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse3"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="header3"
+                    data-bs-parent="#firsttime"
+                  >
+                    <div class="accordion-body">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur sit amet ante nec vulputate. Nulla aliquam, justo auctor consequat tincidunt, arcu erat mattis lorem, lacinia lacinia dui enim at eros. Pellentesque ut gravida augue. Duis ac dictum tellus </p>
+    
+    
+    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute. non cupidatat skateboard dolor brunch. Foosd truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt alqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim ke ffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+                          </p>
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="header4">
+                    <button
+                      type="button"
+                      class="accordion-button collapsed"
+                      data-bs-target="#collapse4"
+                      data-bs-toggle="collapse"
+                      aria-expanded="false"
+                      aria-controls="collapse4"
+                      id="workpls"
+                    >
+                    <i class="fa-solid fa-0"></i>
+                    <i class="fa-solid fa-4"></i>
+                    &nbsp;
+                    How Clients Can Consult With online ?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse4"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="header4"
+                    data-bs-parent="#firsttime"
+                  >
+                    <div class="accordion-body">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur sit amet ante nec vulputate. Nulla aliquam, justo auctor consequat tincidunt, arcu erat mattis lorem, lacinia lacinia dui enim at eros. Pellentesque ut gravida augue. Duis ac dictum tellus </p>
+    
+    
+    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute. non cupidatat skateboard dolor brunch. Foosd truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt alqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim ke ffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+                          </p>
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="header-5">
+                    <button
+                      type="button"
+                      class="accordion-button collapsed"
+                      data-bs-target="#collapse5"
+                      data-bs-toggle="collapse"
+                      aria-expanded="false"
+                      aria-controls="collapse5"
+                    >
+                      Can I share resources between features ?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse5"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="header5"
+                    data-bs-parent="#firsttime"
+                  >
+                    <div class="accordion-body">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur sit amet ante nec vulputate. Nulla aliquam, justo auctor consequat tincidunt, arcu erat mattis lorem, lacinia lacinia dui enim at eros. Pellentesque ut gravida augue. Duis ac dictum tellus </p>
+    
+    
+    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute. non cupidatat skateboard dolor brunch. Foosd truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt alqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim ke ffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+                          </p>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+
+
+        
+        </div>
+
+</section>
+
+<!-- blog  -->
+
+
+<section id="blog">
+    <div class="container p-5">
+        <div class="titles text-center">
+            <h6>BLOGS</h6>
+            <h1 class="fw-bold mb-4 fs-1">Our Latest News</h1>
+            <h6 class="text-muted fw-normal">
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+            </h6>
+          </div>
+          <div class="row gx-5">
+            <div class="col-4">
+              <div class="card" style="width: 25rem">
+                <img class="card-img-top" src="images/blog-1.jpg" alt="team" />
+                <div class="d-flex  ">
+                <div
+                  class="card-body ">
+                  <div class="context">
+                    <h6 id="color-pink">Blog</h6>
+                    <h5 class="fw-normal">Boost your conversion rate</h5>
+                    <p> Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy eirmod tempor ividunt dolore magna.</p>
+                  </div>
+                <div class="card-body d-flex justify-content-between">
+                    <img src="images/comment1.jpg" class="img-fluid rounded-circle" style="width: 60px;">
+                    <div class="small-titles">
+                    <h5>Roel Aufderhar</h5>
+                    <h6>Mar 15,2023 <span class="dot"></span>   5 min read</h6>
+                </div>
+                </div>
+            </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+                <div class="card" style="width: 25rem">
+                  <img class="card-img-top" src="images/blog-2.jpg" alt="team" />
+                  <div class="d-flex  ">
+                  <div
+                    class="card-body ">
+                    <div class="context">
+                      <h6>Video</h6>
+                      <h5 class="fw-normal">How to use search engine</h5>
+                      <p> Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy eirmod tempor ividunt dolore magna.</p>
+                    </div>
+                  <div class="card-body d-flex justify-content-between">
+                      <img src="images/comment2.jpg" class="img-fluid rounded-circle" style="width: 60px;">
+                      <div class="small-titles">
+                      <h5>Roel Aufderhar</h5>
+                      <h6 id="color-pink">Feb 10,2023 <span class="dot"></span>   7 min read</h6>
+                  </div>
+                  </div>
+              </div>
+  
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 25rem">
+                  <img class="card-img-top" src="images/blog-3.jpg" alt="team" />
+                  <div class="d-flex  ">
+                  <div
+                    class="card-body ">
+                    <div class="context">
+                      <h6 id="color-pink">Marketing</h6>
+                      <h5 class="fw-normal">Awesome ways to boost sales</h5>
+                      <p> Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy eirmod tempor ividunt dolore magna.</p>
+                    </div>
+                  <div class="card-body d-flex justify-content-between">
+                      <img src="images/comment3.jpg" class="img-fluid rounded-circle" style="width: 60px;">
+                      <div class="small-titles">
+                      <h5>Roel Aufderhar</h5>
+                      <h6>Jan 20,2023 <span class="dot"></span>   6 min read</h6>
+                  </div>
+                  </div>
+              </div>
+  
+                  </div>
+                </div>
+              </div>
+          </div>
+    </div>
+</section>
+
+    </main>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

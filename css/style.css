@@ -1,0 +1,300 @@
+:root {
+  --primary--color: #ff6b81;
+  --secondary--color: #081828;
+  ---Email--Address--input: #394653;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header nav .btn-color {
+  background-color: #ff6b81;
+  font-family: "Inter";
+}
+
+header #banner {
+  background-color: var(--primary--color);
+  padding: 100px 100px;
+}
+
+#banner button:first-child .text-color {
+  color: var(--primary--color);
+  font-family: "Inter", sans-serif;
+}
+
+#banner button:first-child i {
+  color: var(--primary--color);
+}
+#banner button:last-child {
+  border: 2px white solid;
+}
+
+#banner button:last-child .text-color {
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+#banner button:last-child i {
+  color: white;
+}
+
+main #cards {
+  background-color: #f9f9f9;
+}
+
+main #cards .titles {
+  padding: 40px;
+  width: 70%;
+  margin: auto;
+}
+
+main #cards .titles h5 {
+  color: var(--primary--color);
+}
+
+main #cards i {
+  height: 50px;
+  width: 50px;
+  background-color: var(--primary--color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  box-shadow: 1px 1px 10px lightgrey;
+}
+
+main #cards .card {
+  border: none;
+  /* outline: 1px solid lightgray; */
+  box-shadow: 1px 1px 10px lightgray;
+}
+
+main #firstpic {
+  padding: 100px 100px;
+}
+main #firstpic .text-thing i {
+  height: 50px;
+  width: 50px;
+  background-color: var(--primary--color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  box-shadow: 1px 1px 10px lightgrey;
+}
+
+main #firstpic .text-thing {
+  padding: 30px;
+  width: 100%;
+}
+
+main #firstpic .text-thing button {
+  background-color: var(--primary--color);
+  color: white;
+  font-family: "Inter", sans-serif;
+  padding: 7px 20px;
+  padding: 8px 20px;
+  font-size: 1em;
+}
+
+main #secondpic {
+  padding: 100px 100px;
+}
+
+main #secondpic .text-thing {
+  padding: 30px;
+  width: 100%;
+}
+
+main #secondpic .text-thing i {
+  height: 50px;
+  width: 50px;
+  background-color: var(--primary--color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  box-shadow: 1px 1px 10px lightgrey;
+}
+
+main #secondpic .text-thing button {
+  background-color: var(--primary--color);
+  color: white;
+  font-family: "Inter", sans-serif;
+  padding: 7px 20px;
+  padding: 8px 20px;
+  font-size: 1em;
+}
+
+main #numbers {
+  padding: 100px 100px;
+  background-color: var(--primary--color);
+}
+
+main #numbers .small {
+  width: 70%;
+  margin: auto;
+}
+
+main #pricecards {
+  background-color: #f9f9f9;
+}
+
+main #pricecards .titles {
+  padding: 40px;
+  width: 70%;
+  margin: auto;
+}
+
+main #pricecards .titles h6 {
+  color: var(--primary--color);
+}
+
+main #pricecards button {
+  padding: 10px 68px;
+  font-size: 0.9em;
+}
+
+main #pricecards #line {
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+main #pricecards li {
+  list-style: none;
+  padding: 0px;
+}
+main #pricecards ul {
+  padding: 0px;
+}
+
+main #pricecards ul li i {
+  color: var(--primary--color);
+}
+
+main #pricecards .card-body:last-child {
+  padding: 10px 20px;
+}
+main #pricecards .card-body:first-child {
+  padding: 10px 20px;
+}
+
+
+main #team .titles {
+  padding: 40px;
+  width: 70%;
+  margin: auto;
+}
+
+main #team .titles h6 {
+  color: var(--primary--color);
+}
+
+
+main #team #color-pink {
+    color: var(--primary--color);
+}
+
+main #team i {
+    color: grey;
+}
+main #team .card {
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 10px lightgray;
+}
+
+main #testi {
+    background-color:#f9f9f9 ;
+}
+
+main #testi .width-text {
+    padding: 40px;
+    width: 70%;
+    margin: auto;
+}
+
+main #testi #border {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 720px;
+  }
+
+  main #testi #border .border-item {
+    height: 3px;
+    width: 20px;
+    background-color: var(--primary--color);
+    margin: 0px 5px;
+    border-radius: 5px;
+  }
+
+  main #install {
+    background-color: var(--primary--color);
+  }
+
+  main #install .titles {
+    padding: 40px;
+    width: 70%;
+    margin: auto;
+}
+
+#install button:first-child .text-color {
+    color: var(--primary--color);
+    font-family: "Inter", sans-serif;
+  }
+  
+  #install button:first-child i {
+    color: var(--primary--color);
+  }
+  #install button:last-child {
+    border: 2px white solid;
+  }
+  
+  #install button:last-child .text-color {
+    color: white;
+    font-family: "Inter", sans-serif;
+  }
+  
+  #install button:last-child i {
+    color: white;
+  }
+  
+ #accordion #workpls:focus {
+    background-color: var(--primary--color);
+    outline-color: #394653;
+ }
+
+ main #accordion .titles {
+    padding: 40px;
+    width: 70%;
+    margin: auto;
+ }
+
+ main #accordion .titles h6 {
+    color: var(--primary--color);
+  }
+
+  main #blog {
+    background-color: #f9f9f9;
+  }
+
+  main #blog .titles {
+    padding: 40px;
+    width: 70%;
+    margin: auto;
+  }
+
+  main #blog .titles h6 {
+    color: var(--primary--color);
+  }
